@@ -1,4 +1,4 @@
-# 🛰️ CubeSat Master Project
+#  CubeSat Master Project
 
 ![Repo Size](https://img.shields.io/github/repo-size/hiteshbhoyar03/Cubesat-master)
 ![Last Commit](https://img.shields.io/github/last-commit/hiteshbhoyar03/Cubesat-master)
@@ -15,19 +15,19 @@
 
 A open-source CubeSat project featuring fully designed schematic and PCB layouts, focused on essential subsystems: Onboard Computer (OBC), Electrical Power System (EPS), Battery Management, and a custom SPI-based Sun Sensor.  Designed as a **learning and portfolio project**, this CubeSat stack includes:
 
-- 🧠 Onboard Computer (OBC)
-- 🔋 Electrical Power System (EPS)
-- ⚡ Battery Board
-- 🌞 Sun Sensor Board
+-  Onboard Computer (OBC)
+-  Electrical Power System (EPS)
+-  Battery Board
+-  Sun Sensor Board
 
 This CubeSat project aims to demonstrate a complete electronic subsystem stack suitable for academic learning purpose.
 
-> ✅ Hardware (schematics, layout, stack interface) is complete and ready.  
-> 🔧 Firmware development is in progress using STM32CubeIDE and STM32CubeMX.
+>  Hardware (schematics, layout, stack interface) is complete and ready.  
+>  Firmware development is in progress using STM32CubeIDE and STM32CubeMX.
 
 ---
 
-## 🧠 Onboard Computer (OBC)
+##  Onboard Computer (OBC)
 
 <a href="https://github.com/hiteshbhoyar03/Cubesat-master/tree/main/OnBoard%20Computer_OBC">
 <img align="right" width="30%" src="https://github.com/hiteshbhoyar03/Cubesat-master/blob/main/OnBoard%20Computer_OBC/gallery/obc%20front.png">
@@ -39,11 +39,11 @@ The brain of the CubeSat, responsible for mission control, data handling, and sy
 - **Memory**: MR25H40MDF (MRAM), S25HL512TFANHI010 (NOR Flash)
 - **Sensors**: ISM330ISN (IMU), MMC5983MA (Magnetometer)
 
-📂 [View OBC Design]( OnBoard Computer_OBC/ )
+ [View OBC Design]( OnBoard Computer_OBC/ )
 
 ---
 
-## 🔋 Electrical Power System (EPS)
+##  Electrical Power System (EPS)
 
 <a href="https://github.com/hiteshbhoyar03/Cubesat-master/tree/main/Electrical%20Power%20System_EPS">
 <img align="right" width="30%" src="https://github.com/hiteshbhoyar03/Cubesat-master/blob/main/Electrical%20Power%20System_EPS/gallery/EPS_v1%20front.png">
@@ -55,11 +55,11 @@ The power distribution and management unit of the CubeSat. It regulates and swit
 - **Standby/Reset MCU**: STM32L452 (SRIC)
 - Designed with minimal power usage for deep sleep and wakeup control
 
-  📂 [View EPS Design]( Electrical Power System_EPS/ )
+   [View EPS Design]( Electrical Power System_EPS/ )
 
 ---
 
-## ⚡ Battery Board
+##  Battery Board
 
 <a href="https://github.com/hiteshbhoyar03/Cubesat-master/tree/main/Battery%20Board">
 <img align="right" width="30%" src="https://github.com/hiteshbhoyar03/Cubesat-master/blob/main/Battery%20Board/gallery/battery%20board%20front.png">
@@ -74,11 +74,11 @@ The CubeSat’s energy storage subsystem, holding four 18650 Li-Ion cells. It ha
 - **Connectors**:
   - Solar power input: IPS1-105-01-L-D-VS
 
-📂 [View Battery Board Design]( Battery Board/ )
+ [View Battery Board Design]( Battery Board/ )
 
 ---
 
-## 🌞 Sun Sensor Board
+##  Sun Sensor Board
 
 <a href="https://github.com/hiteshbhoyar03/Cubesat-master/tree/main/Sun%20Sensor">
 <img align="right" width="22%" src="https://github.com/hiteshbhoyar03/Cubesat-master/blob/main/Sun%20Sensor/gallery/sunsensor%20front.png">
@@ -91,11 +91,11 @@ A lightweight attitude reference sensor using dual analog PSDs to measure the di
 - **Signal Conditioning**: 2 × TLV9004Q1 (quad op-amps)
 - **Interface**: SPI with MISO 
 
-📂 [View Sun Sensor Design]( Sun Sensor/ )
+ [View Sun Sensor Design]( Sun Sensor/ )
 
 ---
 
-## 🧪 Project Status
+##  Project Status
 
 - [x] Hardware schematics and layout complete
 - [x] Stack connector interface aligned (PC104)
@@ -104,31 +104,31 @@ A lightweight attitude reference sensor using dual analog PSDs to measure the di
 
 ---
 
-## 🔧 Tools Used
+##  Tools Used
 
-- 🛠 **Altium Designer** – Schematic and PCB Layout  
-- 🔌 **STM32CubeIDE** – Embedded development
-- 🔌 **STM32CubeMX** – Peripheral and clock config  
-- 📦 **GitHub** – VersVersion control , documentation and project showcase
+-  **Altium Designer** – Schematic and PCB Layout  
+-  **STM32CubeIDE** – Embedded development
+-  **STM32CubeMX** – Peripheral and clock config  
+-  **GitHub** – VersVersion control , documentation and project showcase
 
 ---
 
-## 👤 Author
+##  Author
 
 **Hitesh Bhoyar**  
-📍 Embedded Systems | CubeSat Design | Low Power Electronics  
+ Embedded Systems | CubeSat Design | Low Power Electronics  
 [GitHub →](https://github.com/hiteshbhoyar03)
 > For educational use. Feel free to fork, reuse, or reach out if you are exploring embedded systems!
 
 ---
 
-## 📜 License
+##  License
 
 Licensed under the [MIT License](../LICENSE)
 
 ---
 
-## ⭐ Learning Goals
+##  Learning Goals
 
 ✅ Demonstrate embedded systems proficiency  
 ✅ Showcase multilayer PCB & Altium experience  
@@ -138,7 +138,7 @@ Licensed under the [MIT License](../LICENSE)
 
 ---
 
-## 🎯 Project Purpose
+##  Project Purpose
 
 An academic and portfolio project to:
 
