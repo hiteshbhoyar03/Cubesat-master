@@ -1,4 +1,4 @@
-# 🧠 CubeSat Onboard Computer (OBC)
+#  CubeSat Onboard Computer (OBC)
 
 <p align="center">
 <img  width="39%" src="https://github.com/hiteshbhoyar03/Cubesat-master/blob/main/OnBoard%20Computer_OBC/gallery/obc%20front.png">
@@ -7,11 +7,11 @@
 
 The Onboard Computer (OBC) is the central control unit of the CubeSat system, designed for low-power operation, robust interfacing, and modular telemetry/command handling. It serves as the core data and control hub, interfacing with sensors and subsystems over multiple buses including SPI, I2C, UART, and CAN.
 
-> 🚀 This design emphasizes embedded systems learning, modular subsystem interaction, and reliable firmware development for space applications.
+>  This design emphasizes embedded systems learning, modular subsystem interaction, and reliable firmware development for space applications.
 
 ---
 
-## ⚙️ Functional Block Overview
+##  Functional Block Overview
 
 | Component Type   | Component                       | Function                                  |
 |------------------|---------------------------------|-------------------------------------------|
@@ -31,7 +31,7 @@ The Onboard Computer (OBC) is the central control unit of the CubeSat system, de
 
 ---
 
-## 📦 Key Features
+##  Key Features
 
 - **STM32L496ZGT6**
 - **Real-Time Clock & System Clocks**
@@ -53,7 +53,7 @@ The Onboard Computer (OBC) is the central control unit of the CubeSat system, de
 
 ---
 
-## 🔌 External Interfaces
+##  External Interfaces
 
 - **Sun Sensor Connectors**
 - **GPS Interface**
@@ -61,7 +61,7 @@ The Onboard Computer (OBC) is the central control unit of the CubeSat system, de
 ---
 
 
-## 🔋 Power Considerations
+##  Power Considerations
 
 - Powered via EPS board through PC104 connector
 - Designed for low power consumption in deep-sleep modes
@@ -69,27 +69,27 @@ The Onboard Computer (OBC) is the central control unit of the CubeSat system, de
 
 ---
 
-## 🔧 Tools Used
+##  Tools Used
 
-- 🛠 **Altium Designer** – Schematic and PCB Layout  
-- 🔌 **STM32CubeIDE** – Embedded development
-- 🔌 **STM32CubeMX** – Peripheral and clock config  
-- 📦 **GitHub** – VersVersion control , documentation and project showcase
+-  **Altium Designer** – Schematic and PCB Layout  
+-  **STM32CubeIDE** – Embedded development
+-  **STM32CubeMX** – Peripheral and clock config  
+-  **GitHub** – VersVersion control , documentation and project showcase
 
 ---
 
-## 👤 Author
+##  Author
 
 **Hitesh Bhoyar**  
-📍 Embedded Systems | CubeSat Design | Low Power Electronics  
+ Embedded Systems | CubeSat Design | Low Power Electronics  
 [GitHub →](https://github.com/hiteshbhoyar03)
 > For educational use. Feel free to fork, reuse, or reach out if you are exploring embedded systems!
 
 ---
 
-> 📦 Visit the [main repository](https://github.com/hiteshbhoyar03/Cubesat-master) for other subsystems.
+>  Visit the [main repository](https://github.com/hiteshbhoyar03/Cubesat-master) for other subsystems.
 
-## 📜 License
+##  License
 
 Licensed under the [MIT License](../LICENSE)
 

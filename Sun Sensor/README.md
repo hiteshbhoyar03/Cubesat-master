@@ -1,4 +1,4 @@
-# 🌞 CubeSat Sun Sensor Board
+#  CubeSat Sun Sensor Board
 
 <p align="center">
 <img  width="39%" src="https://github.com/hiteshbhoyar03/Cubesat-master/blob/main/Sun%20Sensor/gallery/sunsensor%20front.png">
@@ -7,22 +7,22 @@
 
 This Sun Sensor module is designed for fine sun vector detection on a CubeSat using position-sensitive detectors (PSDs). The sensor includes low-noise amplification, real-time processing via an ultra-low-power STM32 microcontroller, and SPI communication to the OBC or EPS.
 
-> 🛰️ Part of a modular CubeSat system for attitude determination and control (ADCS) experiments and embedded systems learning.
+>  Part of a modular CubeSat system for attitude determination and control (ADCS) experiments and embedded systems learning.
 
 ---
 
-## 🔧 Design Highlights
+##  Design Highlights
 
-- 🌞 High-resolution, dual-axis sun vector sensing
-- 🔍 Low-noise op-amp signal path
-- ⚡ Ultra-low-power STM32 MCU for in-orbit efficiency
-- 🔌 SPI-compatible with other CubeSat systems
-- 🔒 Tri-state buffer to avoid SPI bus contention
-- 🧩 Compact design for integration into small stacks
+-  High-resolution, dual-axis sun vector sensing
+-  Low-noise op-amp signal path
+-  Ultra-low-power STM32 MCU for in-orbit efficiency
+-  SPI-compatible with other CubeSat systems
+-  Tri-state buffer to avoid SPI bus contention
+-  Compact design for integration into small stacks
 
 ---
 
-## 📦 Key Features
+##  Key Features
 
 - **Hamamatsu S5990-01**
   - Dual-axis position-sensitive photodiodes (PSDs)
@@ -45,7 +45,7 @@ This Sun Sensor module is designed for fine sun vector detection on a CubeSat us
 
 ---
 
-## 📐 Functional Overview
+##  Functional Overview
 
 | Component                   | Function                                      |
 |-----------------------------|-----------------------------------------------|
@@ -57,27 +57,27 @@ This Sun Sensor module is designed for fine sun vector detection on a CubeSat us
 
 ---
 
-## 🔧 Tools Used
+##  Tools Used
 
-- 🛠 **Altium Designer** – Schematic and PCB Layout  
-- 🔌 **STM32CubeIDE** – Embedded development
-- 🔌 **STM32CubeMX** – Peripheral and clock config  
-- 📦 **GitHub** – VersVersion control , documentation and project showcase
+-  **Altium Designer** – Schematic and PCB Layout  
+-  **STM32CubeIDE** – Embedded development
+-  **STM32CubeMX** – Peripheral and clock config  
+-  **GitHub** – VersVersion control , documentation and project showcase
 
 ---
 
-## 👤 Author
+##  Author
 
 **Hitesh Bhoyar**  
-📍 Embedded Systems | CubeSat Design | Low Power Electronics  
+ Embedded Systems | CubeSat Design | Low Power Electronics  
 [GitHub →](https://github.com/hiteshbhoyar03)
 > For educational use. Feel free to fork, reuse, or reach out if you are exploring embedded systems!
 
 ---
 
-> 📦 Visit the [main repository](https://github.com/hiteshbhoyar03/Cubesat-master) for other subsystems.
+>  Visit the [main repository](https://github.com/hiteshbhoyar03/Cubesat-master) for other subsystems.
 
-## 📜 License
+##  License
 
 Part of the [CubeSat Master Project](https://github.com/hiteshbhoyar03/Cubesat-master)  
 Licensed under the [MIT License](../LICENSE)

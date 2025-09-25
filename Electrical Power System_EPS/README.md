@@ -1,4 +1,4 @@
-# ⚡ CubeSat Electrical Power System (EPS) Board
+#  CubeSat Electrical Power System (EPS) Board
 
 <p align="center">
 <img  width="39%" src="https://github.com/hiteshbhoyar03/Cubesat-master/blob/main/Electrical%20Power%20System_EPS/gallery/EPS_v1%20front.png">
@@ -9,13 +9,13 @@ This is the dedicated Electrical Power System (EPS) board designed as part of a 
 
 Designed for reliability, fault tolerance, and modularity, the EPS handles **power generation, regulation, protection, distribution, and monitoring** for the CubeSat stack.
 
-🛠️ Built using dual STM32 microcontrollers with redundant control paths and hardware protections, this board aims to simulate a real-world EPS for low-Earth orbit CubeSats.
+ Built using dual STM32 microcontrollers with redundant control paths and hardware protections, this board aims to simulate a real-world EPS for low-Earth orbit CubeSats.
 
-> 🚀 This project is for **learning and portfolio building**, and simulates real-world aerospace-grade embedded systems and power electronics design.
+>  This project is for **learning and portfolio building**, and simulates real-world aerospace-grade embedded systems and power electronics design.
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 This project is designed to explore:
 - Solar MPPT implementation
@@ -27,7 +27,7 @@ This project is designed to explore:
 
 ---
 
-## 🔧 Key Features
+##  Key Features
 - Dual **STM32 MCUs**: Power Management + Start - Restart/Reset controller
 - **CAN AND UART communication x2**
 - **Battery Board interface** (I2C + UART)
@@ -39,7 +39,7 @@ This project is designed to explore:
 
 ---
 
-## 🧠 Dual Microcontroller Architecture
+##  Dual Microcontroller Architecture
 - PMIC | STM32L496  | Power regulation, MPPT, output control           
 - SRIC | STM32L452  | Startup, reset, standby and wake-up logic        
 - Both MCUs feature:
@@ -49,7 +49,7 @@ This project is designed to explore:
 
   ---
 
-## 🔋 Battery & Solar Integration
+##  Battery & Solar Integration
 - Battery Board Interface:
   - **I2C + UART** connection
 - Solar Power Handling:
@@ -63,7 +63,7 @@ This project is designed to explore:
 
 ---
 
-## 🔗 Interfaces & Peripherals
+##  Interfaces & Peripherals
 
 | Interface      | Details                                                        |
 |----------------|----------------------------------------------------------------|
@@ -77,7 +77,7 @@ This project is designed to explore:
 
 ---
 
-## ⚡ Regulated Outputs
+##  Regulated Outputs
 
 | Name                            | Voltage | Converter            |
 |---------------------------------|---------|----------------------|
@@ -89,29 +89,29 @@ This project is designed to explore:
 
 ---
 
-## 🔧 Tools Used
+##  Tools Used
 
-- 🛠 **Altium Designer** – Schematic and PCB Layout  
-- 🔌 **STM32CubeIDE** – Embedded development
-- 🔌 **STM32CubeMX** – Peripheral and clock config  
-- 📦 **GitHub** – VersVersion control , documentation and project showcase
+-  **Altium Designer** – Schematic and PCB Layout  
+-  **STM32CubeIDE** – Embedded development
+-  **STM32CubeMX** – Peripheral and clock config  
+-  **GitHub** – VersVersion control , documentation and project showcase
 
 ---
 
-## 👤 Author
+##  Author
 
 **Hitesh Bhoyar**  
-📍 Embedded Systems | CubeSat Design | Low Power Electronics  
+ Embedded Systems | CubeSat Design | Low Power Electronics  
 [GitHub →](https://github.com/hiteshbhoyar03)
 > For educational use. Feel free to fork, reuse, or reach out if you are exploring embedded systems!
 
 ---
 
-> 📦 Visit the [main repository](https://github.com/hiteshbhoyar03/Cubesat-master) for other subsystems.
+>  Visit the [main repository](https://github.com/hiteshbhoyar03/Cubesat-master) for other subsystems.
 
 ---
 
-## 📜 License
+##  License
 
 Part of the [CubeSat Master Project](https://github.com/hiteshbhoyar03/Cubesat-master)  
 Licensed under the [MIT License](../LICENSE)
